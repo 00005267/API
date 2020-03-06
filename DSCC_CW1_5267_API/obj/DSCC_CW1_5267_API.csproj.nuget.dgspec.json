@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NIGORAKHON\\Desktop\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API.csproj": {}
+    "E:\\projects\\DSCC\\API\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NIGORAKHON\\Desktop\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API.csproj": {
+    "E:\\projects\\DSCC\\API\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIGORAKHON\\Desktop\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API.csproj",
+        "projectUniqueName": "E:\\projects\\DSCC\\API\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API.csproj",
         "projectName": "DSCC_CW1_5267_API",
-        "projectPath": "C:\\Users\\NIGORAKHON\\Desktop\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API.csproj",
-        "packagesPath": "C:\\Users\\NIGORAKHON\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIGORAKHON\\Desktop\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API\\obj\\",
+        "projectPath": "E:\\projects\\DSCC\\API\\DSCC_CW1_5267_API\\DSCC_CW1_5267_API.csproj",
+        "packagesPath": "C:\\Users\\Islom\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\DSCC\\API\\DSCC_CW1_5267_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NIGORAKHON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Islom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
