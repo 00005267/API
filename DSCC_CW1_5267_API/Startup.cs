@@ -23,9 +23,11 @@ namespace DSCC_CW1_5267_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
-
-                var connection = Configuration.GetConnectionString("RDSConnection");
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
+            var connection = Configuration.GetConnectionString("RDSConnection");
             services.AddControllers();
             services.AddDbContext<Context>(options => options.UseSqlServer(connection));
 
@@ -41,6 +43,7 @@ namespace DSCC_CW1_5267_API
             }
 
             app.UseHttpsRedirection();
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseRouting();
 
